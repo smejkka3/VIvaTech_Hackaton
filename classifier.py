@@ -50,17 +50,24 @@ def predict(image_path):
         human_string, score= prediction(image_path)
 
     if (human_string == 'car'):
-        label_text = 'This is not a damaged car with confidence ' + str(score) + '%. Please upload a damaged car image'
-        print(label_text)
+        label_text = 'This is not a damaged car with confidence ' + str(score) + '%.'
+        #print(label_text)
+        return 0
+
     elif (human_string == 'low'):
         label_text = 'This is a low damaged car with '+ str(score) + '% confidence.'
-        print(label_text)
+        #print(label_text)
+        return 1
+
     elif (human_string == 'high'):
         label_text = 'This is a high damaged car with '+ str(score) + '% confidence.'
-        print(label_text)
+        #print(label_text)
+        return 2
+
     elif (human_string == 'not'):
-        label_text = 'This is not the image of a car with confidence ' + str(score) + '%. Please upload the car image.'
-        print(label_text)
+        label_text = 'This is not the image of a car with confidence ' + str(score) + '%.'
+        #print(label_text)
+        return 3
 
 if __name__ == "__main__":
     img_path = str(sys.argv[1])
