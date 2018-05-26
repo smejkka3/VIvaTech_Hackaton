@@ -1,6 +1,6 @@
 # VivaTech_Hackaton
 
-Deep learning classifier of car images that can label the image with: "not car", "good car", "low damaged car" and "highly damaged car" for usage in the G-Scan APP. Proof of concept for VivaTech hackathon.
+Deep learning classifier of car images using pre-trained model that can label the image with: "not car", "good car", "low damaged car" and "highly damaged car" for usage in the G-Scan APP. Proof of concept for VivaTech hackathon.
 
 
 ## Examples:
