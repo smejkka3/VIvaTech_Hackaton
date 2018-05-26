@@ -11,7 +11,7 @@ tensorflow - pip install tensorflow
 python classifier.py "path_to_image"
 
 ## Examples:
-[![Video_example](https://img.youtube.com/vi/v=gcKHIUg8Dbs/0.jpg)](https://www.youtube.com/watch?v=gcKHIUg8Dbs)
+[videoexample](https://www.youtube.com/watch?v=gcKHIUg8Dbs)
 
 ![notdamaged](https://user-images.githubusercontent.com/7142404/40572881-9fa7e468-60b7-11e8-9f30-f3a5c06c0423.jpg)
 output: This is not a damaged car with confidence 49.16%.
