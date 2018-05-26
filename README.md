@@ -1,14 +1,7 @@
 # VivaTech_Hackaton
 
-tensorflow classifier of car images that can label the image with: "not car", "good car", "low damaged car" and "highly damaged car" for usage in android studio for the G-Scan APP
+Deep learning classifier of car images that can label the image with: "not car", "good car", "low damaged car" and "highly damaged car" for usage in the G-Scan APP. Proof of concept for VivaTech hackathon.
 
-## Requisites:
-python
-tensorflow - pip install tensorflow
-
-
-## Usage:
-python classifier.py "path_to_image"
 
 ## Examples:
 [videoexample](https://www.youtube.com/watch?v=gcKHIUg8Dbs)
@@ -24,6 +17,14 @@ output: This is a high damaged car with 67.55% confidence.
 
 ![horse](https://user-images.githubusercontent.com/7142404/40572904-eaccc418-60b7-11e8-897c-cba96aa859b5.jpg)
 output: This is not the image of a car with confidence 69.73%.
+
+## Requisites:
+python
+tensorflow - pip install tensorflow
+
+
+## Usage:
+python classifier.py "path_to_image"
 
 ## References:
 https://github.com/raviranjan0309/Car-Damage-Detector
